@@ -8,13 +8,13 @@ describe('when day 1 opens', () => {
     })
 })
 
-describe('when the elves enter in the jungle', () => {
+describe('when the elves enter in the jungle for the first time', () => {
     test('then the elf carrying the most, carries (in calories)', () => {
         expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(24000)
     })
 })
 
-describe('when the elves enter in the jungle', () => {
+describe('when the elves enter in the jungle for the second time', () => {
     test('then the 3 elves carrying the most, carries a total of (in calories)', () => {
         expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(45000)
     })

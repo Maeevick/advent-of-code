@@ -8,13 +8,13 @@ describe('when day 2 opens', () => {
     })
 })
 
-describe('when ...', () => {
+describe('when ... for the first time', () => {
     test('then ...', () => {
         expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
     })
 })
 
-describe('when ...', () => {
+describe('when ... for the second time', () => {
     test('then ...', () => {
         expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
     })

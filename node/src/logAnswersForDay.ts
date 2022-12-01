@@ -1,5 +1,5 @@
-import path from "node:path"
-import { readInputSync } from "./readInputSync"
+import path from 'node:path'
+import { readInputSync } from './readInputSync'
 
 type Func2Number = (path: string) => number
 
