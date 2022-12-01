@@ -1,4 +1,4 @@
-import { greeting } from "./welcome"
+import { greeting } from './welcome'
 
 describe('when project is installed', () => {
     test('then says "Welcome" and test passes', () => {

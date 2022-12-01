@@ -35,8 +35,8 @@
   },
   "scripts": {
     "start": "ts-node-dev",
-    "test": "jest --maxWorkers 50% --verbose --config ./jest.ts.conf.json",
-    "test:watch": "jest --watch --maxWorkers 25% --config ./jest.ts.conf.json",
+    "test": "jest --verbose --config ./jest.ts.conf.json",
+    "test:watch": "jest --watch --config ./jest.ts.conf.json",
     "test:coverage": "jest --coverage --config ./jest.ts.conf.json",
     "lint": "eslint src/ --ext .ts --fix",
     "tsc": "tsc",
