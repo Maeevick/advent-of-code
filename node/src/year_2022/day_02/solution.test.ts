@@ -8,14 +8,14 @@ describe('when day 2 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when I compute my score following the guide for the first time', () => {
+    test('then I have the points count', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(15)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when I compute my score following the guide for the second time', () => {
+    test('then I have the points count', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(12)
     })
 })
