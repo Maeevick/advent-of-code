@@ -8,14 +8,14 @@ describe('when day 4 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when elves clean the camp for the first time', () => {
+    test('then the number of fully overloaped sections by one elf of the pair is', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(2)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when elves clean the camp for the second time', () => {
+    test('then the number of overloaped sections by one elf of the pair is', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(4)
     })
 })
