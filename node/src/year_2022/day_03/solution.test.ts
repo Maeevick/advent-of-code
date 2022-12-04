@@ -2,7 +2,7 @@ import path from 'node:path'
 import { readInputSync } from '../../readInputSync'
 import { daily, first, second } from './solution'
 
-describe('when day 3 opens', () => {
+describe('when day 03 opens', () => {
     test('then I start to code', () => {
         expect(daily()).toEqual('day_03')
     })
