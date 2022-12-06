@@ -8,14 +8,14 @@ describe('when day 06 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when the elves communication system buffer arrives for the first time', () => {
+    test('then the first start marker is detected after a character count equals to', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(7)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when the elves communication system buffer arrives for the second time', () => {
+    test('then the first message marker is detected after a character count equals to', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(19)
     })
 })
