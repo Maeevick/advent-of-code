@@ -8,14 +8,14 @@ describe('when day 08 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when elves count visible trees for the first time', () => {
+    test('then the total of visible trees is', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(21)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when elves evaluate scenic score for the second time', () => {
+    test('then the best score will be', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(8)
     })
 })
