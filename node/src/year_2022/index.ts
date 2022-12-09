@@ -9,6 +9,7 @@ import { daily as day06, first as first06, second as second06 } from './day_06/s
 import { daily as day07, first as first07, second as second07 } from './day_07/solution'
 import { daily as day08, first as first08, second as second08 } from './day_08/solution'
 import { daily as day09, first as first09, second as second09 } from './day_09/solution'
+import { daily as day10, first as first10, second as second10 } from './day_10/solution'
 
 const SEPARATOR = '-'.repeat(32)
 const YEAR = 'year_2022'
@@ -34,3 +35,5 @@ console.log(SEPARATOR)
 showAnswersForYearAndDay(YEAR, day08(), first08, second08)
 console.log(SEPARATOR)
 showAnswersForYearAndDay(YEAR, day09(), first09, second09)
+console.log(SEPARATOR)
+showAnswersForYearAndDay(YEAR, day10(), first10, second10)
