@@ -8,14 +8,14 @@ describe('when day 11 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when monkeys play with items for the first time', () => {
+    test('then the two most actives monkeys, the level of monkey business after 20 rounds is', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(10605)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when monkeys play with items for the second time', () => {
+    test('then the two most actives monkeys, the level of monkey business after 10_000 rounds ', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(2713310158)
     })
 })
