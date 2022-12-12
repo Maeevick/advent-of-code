@@ -8,14 +8,14 @@ describe('when day 12 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when heightmap is used for the first time', () => {
+    test('then the fewest count of steps to reach the target point is', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(31)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when heightmap is used  for the second time', () => {
+    test('then the fewest count of steps to reach the target point is', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(29)
     })
 })
