@@ -8,14 +8,14 @@ describe('when day 15 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when sensors and beacons are connected for the first time', () => {
+    test('then the count of impossible positions in the given row is', () => {
+        expect(first(10)(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(26)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when sensors and beacons are connected for the second time', () => {
+    test('then the tuning frequency is', () => {
+        expect(second(20)(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(56000011)
     })
 })
