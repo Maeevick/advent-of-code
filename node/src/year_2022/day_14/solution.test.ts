@@ -8,14 +8,14 @@ describe('when day 14 opens', () => {
     })
 })
 
-describe('when ... for the first time', () => {
-    test('then ...', () => {
-        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when the sand falls for the first time', () => {
+    test('then number of units before infinite flowing is', () => {
+        expect(first(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(24)
     })
 })
 
-describe('when ... for the second time', () => {
-    test('then ...', () => {
-        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(0)
+describe('when the sand falls for the second time', () => {
+    test('then number of units before source is blocked is', () => {
+        expect(second(readInputSync(path.join(__dirname, 'sample.txt')))).toEqual(93)
     })
 })
